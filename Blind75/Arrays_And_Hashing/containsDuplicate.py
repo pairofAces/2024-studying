@@ -15,6 +15,9 @@ def hasDuplicate(nums: list[int]):
     return False
 
 nums = [1,2,3,4,4]
+nums2 = [1,2,3,4,5,6,7,8]
 
 test = hasDuplicate(nums)
+
 print(test)
+print(hasDuplicate(nums2))
